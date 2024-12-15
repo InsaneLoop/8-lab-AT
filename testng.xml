@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Task2 Suite">
+    <test name="Task2 Parameterized Test">
+        <parameter name="paramA" value="10"/>
+        <parameter name="paramB" value="15"/>
+        <parameter name="expectedSum" value="25"/>
+        <classes>
+            <class name="Task_2Test"/>
+        </classes>
+    </test>
+</suite>
